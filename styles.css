@@ -7,3 +7,167 @@
 body {
   font-family: "Labrada", serif;
 }
+
+/* Header */
+.header {
+  background-color: #1f2957;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+.logo {
+  color: #f9faf8;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  color: #e5e7eb;
+  margin-right: 2rem;
+}
+
+/* Hero section */
+.hero {
+  background-color: #1f2957;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.hero-left {
+  width: 35%;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.subtext {
+  color: #e5e7eb;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-btn {
+  font: inherit;
+  font-weight: 600;
+  background-color: #3883f6;
+  color: #f9faf8;
+  padding: 0.4rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 35%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Random Info */
+.random-info {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  color: #1f2957;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.info-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.info-box {
+  padding: 2rem 0;
+  width: 150px;
+}
+
+.outline-only {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3883f6;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.info-box p {
+  line-height: 1.2;
+}
+
+/* Quote */
+.quote {
+  background-color: #e5e7eb;
+  padding: 6rem 16rem;
+}
+
+.quote-text {
+  color: #1f2957;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.citation {
+  font-weight: 700;
+  color: #1f2957;
+  text-align: end;
+}
+
+/* Action card */
+.action {
+  padding: 6rem 12rem;
+}
+
+.card {
+  background-color: #3883f6;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 3rem 6rem;
+}
+
+.card-main-text {
+  color: #f9faf8;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.card-subtext {
+  color: #f9faf8;
+  font-weight: 300;
+}
+
+.invert {
+  padding: 0.25rem 2rem;
+  border: 2px solid #f9faf8;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2957;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 1.5rem;
+}
